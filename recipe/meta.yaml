@@ -1,5 +1,5 @@
 {% set name = "pytest-doctest-ufunc" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-doctest-ufunc-{{ version }}.tar.gz
-  sha256: 8d9a4149c791141e6ec59f50d0c91f71dbe16f57c0604d17d426022672549fb9
+  sha256: 958adb5c2c11d6462e4331c43fe77fd991fdfa8767fc417353b8f0c8829e6112
 
 build:
   number: 0
